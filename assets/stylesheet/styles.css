@@ -1,0 +1,36 @@
+body{
+   color: #888888;
+   font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 22px;
+}
+.banner{
+    margin: 0 auto;
+    width: 960px;
+    display: block;
+    background: #293f50;
+}
+.styles{
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 300%;
+    font-weight: 400%;
+    letter-spacing: .5px;
+    line-height: 90%;
+    padding: 2% 0 2% 0;
+    margin-bottom: 22px;
+    color: white;
+    width: 50px;
+    text-decoration: none;
+    }
+    .styles > a:hover{
+        color: #648880;
+    }
+.date{
+ mar
+}
+.navbar{
+    
+
+}
