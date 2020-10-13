@@ -1,4 +1,4 @@
-body{
+/* body{
    background: #293f50;
    color: #888888;
    font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -13,7 +13,6 @@ body{
 }
 .styles{
     border-top: 4px solid #648880;
-    float: left;
     font-size: 300%;
     font-weight: 400%;
     letter-spacing: .5px;
@@ -28,9 +27,8 @@ body{
         color: #648880;
     }
 .date{
- mar
-}
-.navbar{
     
+}
+.navbar{   
 
 }
