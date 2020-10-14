@@ -38,9 +38,9 @@ a > .styles:hover{
 .menu:hover{
     color: #648880;
 }
-.menu:visited{
+/* .menu:visited{
     color:#648880;
-}
+} */
 .datee {
    font-size: 120%;
    color: #648880; 
@@ -48,6 +48,7 @@ a > .styles:hover{
 }
 .container-1{
   background-color: #293f50;
+  height: 20em;
 }
 .dedicated {
     font-size: 2em;
@@ -58,7 +59,7 @@ a > .styles:hover{
 .Ever{
     font-size: 1.5em;
     color:white;
-    margin: 0 0 10% 25%;
+    margin: 0 0 5% 25%;
     width: 60%;
     text-align: center;
     line-height: 2em;
@@ -114,7 +115,7 @@ a > .styles:hover{
     font-size: 0.8em;
     margin-right: 5em;
 }
-.menu-2 :hover{
+.menu-2:hover{
     color:#648880;
 }
 @media (max-width:500px){

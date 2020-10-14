@@ -5,10 +5,10 @@ let comments = document.querySelector("#comment");
 
 let button = document.querySelector("#purchase");
 function submit(e){
-  e.PreventDefault();
-   if (yourName.value ==""){
+  e.preventDefault();
+   if (name.value ==""){
       alert("Input your name");
-    } else if (youremail.value == ""){
+    } else if (email.value == ""){
       alert("Input your email address");
     }else if(num.value ==""){
       alert("Input number of passes");
@@ -16,11 +16,12 @@ function submit(e){
       alert("Please input your comment");
     } else {
       alert("Registration of purchase is successful");
-      console.log ("Name is + (yourName.value)");
-      console.log("Email Address is ${youremail.value}");
-      console.log("Num is ${num.value}");
-      console.log("Comments is ${comments.value}");
-      Window.location.reload();
+      console.log (`Name is ${name.value}`);
+      console.log(`Email Address is ${email.value}`);
+      console.log(`Num is ${numberofpass.value}`);
+      console.log(`Comments is ${comments.value}`);
+      // window.location.reload();
     }
 }
-buttonReg.addEventListener('click',submit);
+button.addEventListener('click',submit);
+console.log('Hi')
