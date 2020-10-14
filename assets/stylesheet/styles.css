@@ -1,34 +1,133 @@
-/* body{
-   background: #293f50;
-   color: #888888;
-   font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-   font-weight: 300;
-   font-size: 16px;
-   line-height: 22px;
+h1
+h2
+h3
+h4{
+    color: #648880;
 }
 .banner{
-    margin: 0 auto;
-    width: 960px;
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    background-color: #293f50;
+    padding: 2em 1em;
 }
 .styles{
-    border-top: 4px solid #648880;
-    font-size: 300%;
-    font-weight: 400%;
+    border-top: solid #648880;
+    font-size: 3em;
     letter-spacing: .5px;
     line-height: 90%;
-    padding: 2% 0 2% 0;
+    padding: 5% 0 2% 0;
     margin-bottom: 22px;
     color: white;
     width: 50px;
     text-decoration: none;
     }
-    .styles > a:hover{
-        color: #648880;
-    }
-.date{
-    
+a > .styles:hover{
+    color: #648880;
 }
-.navbar{   
 
+.navbar {
+    padding-top: 2.5em;
+}
+.menu{
+    color: white;
+    font-weight: bold;
+    padding-right: 2em;
+    font-size: 1em;
+    margin-left: 1em;
+}
+.menu:hover{
+    color: #648880;
+}
+.menu:visited{
+    color: blue;
+}
+.datee {
+   font-size: 120%;
+   color: #648880; 
+   margin-left: 3em;
+}
+.container-1{
+  background-color: #293f50;
+}
+.dedicated {
+    font-size: 2em;
+    margin-left: 30%;
+    color: #648880;
+    width: 45%;
+}
+.Ever{
+    font-size: 1.5em;
+    color:white;
+    margin-left: 25%;
+    width: 60%;
+    text-align: center;
+    line-height: 2em;
+}
+.register{
+    padding: 1.5em;
+    color: white;
+    background-color: #293f50;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    margin: 2em 0 3em 50%;
+    font-size: 1em;
+}
+a > .register:hover {
+    color: #648880;
+    background-color: white;
+}
+.container-2{
+    display: flex;
+    padding: 5% 15%;
+    justify-content: space-evenly;
+}
+.h4{
+    padding-bottom: 1em;
+}
+.pix{
+    border-radius: 10px;
+}
+.World{
+    font-size: 1em;
+    padding: 1em 0;
+    color: #648880;
+}
+.text-2{
+ width: 90%;
+ color: #648880;
+ font-size: 0.9em;
+}
+.foot{
+    background-color: #293f50;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15%;
+}
+.copy{
+    color: #648880;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.menu-2{
+    color: white;
+    font-size: 0.8em;
+    margin-right: 5em;
+}
+.menu-2 :visited{
+    color: blue;
+}
+@media (max-width:500px){
+    .banner{
+        flex-direction: column;
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .container-2{
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction: column;
+    }
 }
