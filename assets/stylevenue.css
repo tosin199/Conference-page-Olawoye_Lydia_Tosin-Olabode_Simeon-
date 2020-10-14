@@ -37,20 +37,50 @@ color: #ffffff;
      text-align: center;
      padding: 5% 22% 4% 22%;
      color: #648880;
+     /* font-weight: 100; */
+     font-size: 100%;
     }
     .viewMap {
         display: flex;
-    }
+        background-color: white;
+        flex-direction: column;
+        padding: 8% 5% 8% 5%;
+      }
     .chicagoTheatre {
-        float: right;
-        margin-right: 50%;
+        /* float: right; */
+        margin-left: 50%;
+        padding-bottom: 1%;
+        color: #648880;
     }
     .seasons {
-        float: right;
-        margin-right: 50%;
+        /* float: right; */
+        margin-left: 50%;
+        padding-bottom: 1%;
+        color: #648880;
     }
     .map-google {
-        padding: 0% 5% 0% 8%;
         color: #648880;
         width: 3%;
+    }
+    .fourSeason{
+        background-color: white;
+    }
+    .h4 {
+        font-size: 200%;
+        margin-left: 15%;
+        /* margin-bottom: 3%; */
+        color: #648880;
+    }
+    .space {
+      margin-left: 15%;
+      padding-bottom: 2%;
+      color: #648880;
+    }
+    .hot {
+      margin-left: 15%;
+      color: #648880;
+    }
+    .num {
+      margin-left: 15%;
+      color: #648880;
     }
