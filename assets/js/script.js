@@ -20,7 +20,7 @@ function submit(e){
       console.log(`Email Address is ${email.value}`);
       console.log(`Num is ${numberofpass.value}`);
       console.log(`Comments is ${comments.value}`);
-      // window.location.reload();
+      window.location.reload();
     }
 }
 button.addEventListener('click',submit);
