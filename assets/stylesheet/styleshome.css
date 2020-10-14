@@ -39,7 +39,7 @@ a > .styles:hover{
     color: #648880;
 }
 .menu:visited{
-    color: blue;
+    color:#648880;
 }
 .datee {
    font-size: 120%;
@@ -58,7 +58,7 @@ a > .styles:hover{
 .Ever{
     font-size: 1.5em;
     color:white;
-    margin-left: 25%;
+    margin: 0 0 10% 25%;
     width: 60%;
     text-align: center;
     line-height: 2em;
@@ -70,10 +70,10 @@ a > .styles:hover{
     border-radius: 10px;
     border-style: solid;
     border-color: white;
-    margin: 2em 0 3em 50%;
+    margin: 2em 0 3em 45%;
     font-size: 1em;
 }
-a > .register:hover {
+.register:hover {
     color: #648880;
     background-color: white;
 }
@@ -114,8 +114,8 @@ a > .register:hover {
     font-size: 0.8em;
     margin-right: 5em;
 }
-.menu-2 :visited{
-    color: blue;
+.menu-2 :hover{
+    color:#648880;
 }
 @media (max-width:500px){
     .banner{
