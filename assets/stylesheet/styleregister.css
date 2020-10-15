@@ -1,0 +1,141 @@
+/* .body {
+background-color: #293F50;
+font-family: 'Lato', sans-serif  "Open Sans", "Helvetica Neue", Helvetica, Arial;
+} */
+h1
+h2
+h3
+h4{
+    color: #648880;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: #293f50;
+}
+.styles{
+    border-top: solid #648880;
+    font-size: 3em;
+    letter-spacing: .5px;
+    line-height: 90%;
+    padding: 10% 0 2% 0;
+    margin-bottom: 22px;
+    color: white;
+    width: 7em;
+    text-decoration: none;
+    }
+a > .styles:hover{
+    color: #648880;
+}
+
+.navbar {
+    padding-top: 2.5em;
+}
+.menu{
+    color: white;
+    font-weight: bold;
+    padding-right: 2em;
+    font-size: 1em;
+}
+.menu:hover{
+    color: #648880;
+}
+/* .menu:visited{
+    color:#648880;
+} */
+.datee {
+   font-size: 120%;
+   color: #648880; 
+   margin-left: 3em;
+   padding-top: 15%;
+}
+.section1 {
+/* background:-o-linear-gradient(); */
+background: #a1d3b0;
+ text-align: center;
+ padding: 5% 22% 4% 22%;
+ color: #648880;
+}
+.purchase {
+  display: flex;
+  background-color: #ffffff;
+  color: #648880;
+  font-weight: 500;
+  font-size: 108%;
+  padding-bottom: 15%;
+  /* font-style: 80%; */
+}
+.pass {
+  padding:8% 1% 1% 20% ;
+  font-weight: 300;
+}
+.con {
+  padding-bottom: 3%;
+}
+.per {
+padding-bottom: 5%;
+}
+.brief {
+  padding-bottom: 3%;
+}
+.why {
+  padding-bottom: 4%;
+}
+.input {
+  display: flex;
+  padding: 8% 20% 1% 20%;
+
+}
+.block {
+  display: block;
+  width: 95%;
+  height: 10%;
+  ;
+  margin-bottom: 15%;
+}
+.com {
+  margin-top: 3%;
+}
+.buttonReg {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+  font-weight: 500;
+  background-color: #293F50;
+  width: 55%;
+  line-height: 250%;
+  border-radius: 8%;
+}
+.foot{
+  background-color: #293f50;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 15%;
+}
+.copy{
+  color: #648880;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.menu-2{
+  color: white;
+  font-size: 0.8em;
+  margin-right: 5em;
+}
+.menu-2:hover{
+  color:#648880;
+}
+@media (max-width:500px){
+  .banner{
+      flex-direction: column;
+  }
+  .container-1{
+      flex-direction: column;
+  }
+  .container-2{
+      flex-direction: column;
+  }
+  .foot{
+      flex-direction: column;
+  }
+}

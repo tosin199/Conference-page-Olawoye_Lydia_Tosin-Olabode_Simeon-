@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link rel="stylesheet" href="../assets/stylesheet/styleregister.css">
+    <link rel="stylesheet" href="../assets/stylesheet/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="banner">
+    <a href="home.html"><h1 class="styles"> STYLES CONFERENCE</h1></a>
+      <div class="date">
+        <p class="datee">August 24-26th - Chicago,IL</p>
+          <nav class="navbar">
+          <a href="home.html" class="menu">HOME</a>
+          <a href="venue.html" class="menu">VENUE</a>
+          <a href="register.html" class="menu">REGISTER</a>
+          </nav>
+        </div>
+  </header>
+    <main class="register">
+      <section class="section1">
+        <h2>Register</h2>
+        <p>
+          Every year we aim to have an unbelievable time,and this year we'd love it for you
+          to join us. Conference passes only cost $99, one of the best values you'll find.
+        </p>
+      </section>
+      <section class="section2">
+        <div class="purchase">
+          <div class="pass">
+            <h4 class="con">Purchase a Conference Pass</h4>
+            <h5 class="per">$99 PER PASS</h5>
+            <p class="brief">Purchase your Styles Conference pass using the form to the right.
+             Multiple passes may be purchased within the same order, so feel
+             free to bring a friend or two along. Once your order is finished we'll follow up 
+             and provide a receipt for your purchase. See you soon!
+            </p>
+              <h4 class="why">Why Attend?</h4>
+              <ul>
+                <li>Over twenty world-class speakers</li>
+                <li>One full day of workshops and two full days of presentations</li>
+                <li>Hosted at The Chicago Theatre, a historical landmark</li>
+                <li>August in Chicago is simply amazing</li>
+             </ul>
+          </div>
+          <div class="input">
+            <form class ="form">
+              <label class="name">Name</label>
+              <input type="text" id="yourName" class="block" placeholder="Full name">
+              <label class="email">Email</label>
+              <input type="text" id="youremail" class="block" placeholder="Email address">
+              <label class="number">Number of Passes</label>
+              <select id="num">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <label class="com">Comments</label>
+              <textarea id="comment" cols="30" rows="5"></textarea>
+              <button class="buttonReg" id="purchase" onclick="">PURCHASE</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="foot">
+        <p class="copy">&copy; Styles conference</p>
+        <div class="menus">
+          <a href="home.html" class="menu-2">Home</a>
+          <a href="venue.html" class="menu-2">Venue</a>
+          <a href="register.html" class="menu-2">Register</a>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+    
+</body>
+</html>
