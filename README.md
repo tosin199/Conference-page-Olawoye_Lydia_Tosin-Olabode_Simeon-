@@ -14,7 +14,7 @@ This is a live demo(https://raw.githack.com/tosin199/Conference-page-Olawoye_Lyd
 Olawoye Lydia Tosin
 * Github:@Lydia Tosin
 * Twitter:@olawoye_lydia
-Linkedin:Olawoye Lydia Tosin
+* Linkedin:Olawoye Lydia Tosin
 # Author
 Simeon Olabode
 * Github:@olabs06

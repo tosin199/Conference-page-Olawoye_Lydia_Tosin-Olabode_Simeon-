@@ -50,7 +50,7 @@ a > .styles:hover{
    padding-top: 15%;
 }
 .section1 {
-background:-o-linear-gradient(to right);
+/* background:-o-linear-gradient(); */
 background: #a1d3b0;
  text-align: center;
  padding: 5% 22% 4% 22%;
@@ -63,7 +63,7 @@ background: #a1d3b0;
   font-weight: 500;
   font-size: 108%;
   padding-bottom: 15%;
-  font-style: 80%;
+  /* font-style: 80%; */
 }
 .pass {
   padding:8% 1% 1% 20% ;
