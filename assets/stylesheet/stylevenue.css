@@ -1,35 +1,53 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-.body {
+/* .body {
 background-color: #293F50;
 font-family: 'Lato', sans-serif  "Open Sans", "Helvetica Neue", Helvetica, Arial;
+} */
+h1
+h2
+h3
+h4{
+    color: #648880;
 }
-.banner {
-  color: #ffffff;
-  padding: 0% 20% 5% 16.5%;
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: #293f50;
 }
-.styles {
-  padding: 10% 0% 10% 0%;
-  float: left;
-  font-weight: 400;
-  font-size: 300%;
-  line-height: 90%;
-  
+.styles{
+    border-top: solid #648880;
+    font-size: 3em;
+    letter-spacing: .5px;
+    line-height: 90%;
+    padding: 10% 0 2% 0;
+    margin-bottom: 22px;
+    color: white;
+    width: 7em;
+    text-decoration: none;
+    }
+a > .styles:hover{
+    color: #648880;
 }
-.date {
-padding: 13% 0% 3.5%;
-text-align: right;
-font-size: 200%;
-font-weight: 500;
-color:#648880;
+
+.navbar {
+    padding-top: 2.5em;
 }
-.menu {
-margin-right: 5%;
-display: inline-flex;
-text-align: right;
-color: #ffffff;
+.menu{
+    color: white;
+    font-weight: bold;
+    padding-right: 2em;
+    font-size: 1em;
+}
+.menu:hover{
+    color: #648880;
+}
+/* .menu:visited{
+    color:#648880;
+} */
+.datee {
+   font-size: 120%;
+   color: #648880; 
+   margin-left: 3em;
+   padding-top: 15%;
 }
 .section1 {
     background:-o-linear-gradient(to right);
@@ -83,4 +101,69 @@ color: #ffffff;
     .num {
       margin-left: 15%;
       color: #648880;
+    }
+    .foot{
+      background-color: #293f50;
+      display: flex;
+      justify-content: space-between;
+      padding: 3% 15%;
+  }
+  .copy{
+      color: #648880;
+      font-size: 0.9em;
+      font-weight: bold;
+  }
+  .menu-2{
+      color: white;
+      font-size: 0.8em;
+      margin-right: 5em;
+  }
+  .menu-2:hover{
+      color:#648880;
+  }
+  @media (max-width:500px){
+      .banner{
+          flex-direction: column;
+      }
+      .container-1{
+          flex-direction: column;
+      }
+      .container-2{
+          flex-direction: column;
+      }
+      .foot{
+          flex-direction: column;
+      }
+  }
+  .foot{
+    background-color: #293f50;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15%;
+}
+.copy{
+    color: #648880;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.menu-2{
+    color: white;
+    font-size: 0.8em;
+    margin-right: 5em;
+}
+.menu-2:hover{
+    color:#648880;
+}
+@media (max-width:500px){
+    .banner{
+        flex-direction: column;
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .container-2{
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction: column;
     }

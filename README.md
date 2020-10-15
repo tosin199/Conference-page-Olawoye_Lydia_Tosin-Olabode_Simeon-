@@ -1,14 +1,15 @@
 # Conference-page-Olawoye_Lydia_Tosin-Olabode_Simeon-
 This is a conference page collaborative work.
 # Registration Page
-![This is an alt text](../images/Reg-page.jpg" "This is a sample image.")
+![This is an alt text](/assets/images/register.jpg "This is a sample image.")
 ## Link
-(https://github.com/olabs06/Upper.git)
+https://github.com/tosin199/Conference-page-Olawoye_Lydia_Tosin-Olabode_Simeon-.git)
 ### Built with
 * HTML
 * CSS
+* Javascript
 # Live Demo
-This is a live demo(https://raw.githack.com/olabs06/Upper/css-branch/index.html)
+This is a live demo(https://raw.githack.com/tosin199/Conference-page-Olawoye_Lydia_Tosin-Olabode_Simeon-/venueBranch/index/home.html)
 # Author
 Olawoye Lydia Tosin
 * Github:@Lydia Tosin
